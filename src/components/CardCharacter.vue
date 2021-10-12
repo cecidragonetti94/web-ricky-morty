@@ -33,3 +33,31 @@ export default {
   props: ['character']
 }
 </script>
+
+<style >
+img{
+  width: 200px;
+  height: 200px;
+}
+.character{
+ font-size: 12px;
+ margin: 5px 5px;
+ border: 1px solid rgb(48, 206, 82);
+ box-sizing: border-box;
+display: flex;
+flex-direction: column;
+
+
+}
+@media screen and (min-width: 485px){
+
+ .character{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px;
+    background-color: rgb(78, 76, 76);
+    font-size: 20px;
+
+  }
+}
+</style>

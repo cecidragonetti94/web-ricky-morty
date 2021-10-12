@@ -5,6 +5,7 @@
       placeholder="Search by name"
       v-model="name"
       @keyup="filter()"
+      class="input-name"
     >
   </div>
 </template>
@@ -29,4 +30,13 @@ export default {
 
 
 <style>
+.input-name{
+  border: 2px solid rgb(48, 206, 82);
+  border-radius: 5px;
+  height: 40px;
+}
+.input-name:hover{
+  background-color: #ccc;
+}
+
 </style>
