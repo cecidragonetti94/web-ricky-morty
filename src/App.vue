@@ -46,7 +46,7 @@ export default {
 h1 {
   font-family: "Shadows Into Light", cursive;
   color: rgb(48, 206, 82);
-  font-size: 40px;
+  font-size: 70px;
   text-align: center;
 }
 </style>

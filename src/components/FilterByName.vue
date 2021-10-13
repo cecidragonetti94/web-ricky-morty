@@ -34,6 +34,7 @@ export default {
   border: 2px solid rgb(48, 206, 82);
   border-radius: 5px;
   height: 40px;
+  margin: 5px 7px;
 }
 .input-name:hover{
   background-color: #ccc;

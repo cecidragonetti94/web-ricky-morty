@@ -34,10 +34,11 @@ export default {
 .filter{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+
   font-weight: bolder;
   margin-bottom: 10px;
   cursor: pointer;
+    margin-left: 131px;
  
 }
 .item:hover{
