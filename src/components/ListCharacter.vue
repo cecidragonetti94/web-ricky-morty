@@ -32,3 +32,14 @@ export default {
   }
 }
 </script>
+
+<style>
+.characters{
+  display: grid;
+  grid-template-columns: 550px 550px 550px;
+	grid-template-rows: repeat(7, 250px);
+  margin-left: 8px;
+
+}
+
+</style>

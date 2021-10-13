@@ -37,10 +37,7 @@ export default {
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
   background-color: rgb(78, 76, 76);
   color: blanchedalmond;
   font-family: "Manrope", sans-serif;

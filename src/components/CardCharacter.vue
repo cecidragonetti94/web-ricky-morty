@@ -40,23 +40,24 @@ img{
   height: 200px;
 }
 .character{
+  
  font-size: 12px;
- margin: 5px 5px;
- border: 1px solid rgb(48, 206, 82);
- box-sizing: border-box;
 display: flex;
-flex-direction: column;
+flex-direction: row;
+ border: 3px solid rgb(16, 97, 33);
+ box-sizing: border-box;
+max-width: 700px;
+border-radius: 5px;
+align-items: center;
 
 
 }
 @media screen and (min-width: 485px){
 
  .character{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 100px 100px;
-    background-color: rgb(78, 76, 76);
-    font-size: 20px;
+   background-color: rgb(126, 123, 123);
+   font-size: 20px;
+background-color: rgb(48, 206, 82);
 
   }
 }
