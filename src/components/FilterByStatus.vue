@@ -44,9 +44,11 @@ export default {
 .item:hover{
   color:rgb(48, 206, 82);
 }
-@media screen and (min-width: 485px){
+@media screen and (min-width: 360px){
  .filter{
-   font-size: 25px;
+   font-size: 20px;
+   margin:0;
+
  } 
  .item:hover{
   color:rgb(48, 206, 82);
