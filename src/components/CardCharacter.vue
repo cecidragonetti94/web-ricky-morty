@@ -41,7 +41,7 @@ img{
 }
 .character{
   
- font-size: 12px;
+ font-size: 20px;
 display: flex;
 flex-direction: row;
  border: 3px solid rgb(16, 97, 33);
@@ -49,14 +49,15 @@ flex-direction: row;
 max-width: 700px;
 border-radius: 5px;
 align-items: center;
+background-color: rgb(48, 206, 82);
 
 
 }
-@media screen and (min-width: 485px){
+@media screen and (max-width: 485px){
 
  .character{
    background-color: rgb(126, 123, 123);
-   font-size: 20px;
+   font-size: 12px;
 background-color: rgb(48, 206, 82);
 
   }

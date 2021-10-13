@@ -35,11 +35,21 @@ export default {
 
 <style>
 .characters{
-  display: grid;
+ display: grid;
   grid-template-columns: 550px 550px 550px;
 	grid-template-rows: repeat(7, 250px);
   margin-left: 8px;
 
 }
+@media screen and (max-width:450px){
+  .characters{
+display: grid;
+  grid-template-columns: 384px;
+	grid-template-rows: repeat(1, 250px);
+  margin-left: 8px;
+  }
+}
+
+
 
 </style>
